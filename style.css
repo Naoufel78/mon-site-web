@@ -1,0 +1,84 @@
+
+body {
+    background-color: #050505; 
+    color: #ffffff; 
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center; 
+    padding-top: 50px;
+}
+
+
+.cyber-card {
+    background-color: #1a1a1a; 
+    border: 2px solid #00ff41; 
+    width: 300px; 
+    margin: 0 auto; 
+    padding: 20px;
+    
+    
+    box-shadow: 0 0 20px #00ff41; 
+    border-radius: 15px; 
+}
+
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    border: 3px solid #f20089; 
+}
+
+
+h1 {
+    font-size: 22px;
+    letter-spacing: 2px; 
+}
+
+.neon-text {
+    color: #f20089; 
+    text-shadow: 2px 2px #560032; 
+}
+
+.status {
+    font-size: 14px;
+    border-bottom: 1px dashed #555; 
+    padding-bottom: 10px;
+}
+
+.online {
+    color: #00ff41; 
+    font-weight: bold;
+    animation: clignoter 1.5s infinite; 
+}
+
+.bio {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #cccccc;
+}
+
+
+a {
+    display: block; 
+    background-color: #3d002e;
+    color: #f20089;
+    text-decoration: none; 
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #f20089;
+    transition: 0.3s; 
+}
+
+
+a:hover {
+    background-color: #f20089;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+@keyframes clignoter {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
